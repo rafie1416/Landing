@@ -120,8 +120,10 @@ body {
 }
 
 .team-stats {
+    margin-top: 20px; /* Add spacing above the stats */
     display: flex;
     gap: 50px;
+    justify-content: center; /* Center the stats */
 }
 
 .stat {
@@ -275,7 +277,7 @@ body {
     }
 
     .team-grid {
-        grid-template-columns: repeat(300px, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
     
     .stat-number {

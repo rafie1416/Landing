@@ -321,11 +321,11 @@ body {
             }
             
             .services-grid {
-                grid-template-columns: repeat(300px, 1fr);
+                grid-template-columns: repeat(2, 1fr);
             }
             
             .clients-grid {
-                grid-template-columns: repeat(300px, 1fr);
+                grid-template-columns: repeat(2, 1fr);
             }
         }
         @media (max-width: 480px) {
