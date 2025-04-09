@@ -278,11 +278,11 @@ body {
         grid-template-columns: repeat(2, 1fr);
     }
     .stat-number {
-        font-size: 20px;
+        font-size: auto;
         padding: auto;
     }
     .stat-label {
-        font-size: 10px;
+        font-size: auto;
         padding: auto;
     }
 }
@@ -308,12 +308,12 @@ body {
     }
 
     .stat-number {
-        font-size: 10px;
+        font-size: auto;
         padding: auto;
     }
 
     .stat-label {
-        font-size: 5px;
+        font-size: auto;
         padding: auto;
     }
 
