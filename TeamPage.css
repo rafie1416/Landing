@@ -279,9 +279,11 @@ body {
     }
     .stat-number {
         font-size: 20px;
+        padding: auto;
     }
     .stat-label {
         font-size: 10px;
+        padding: auto;
     }
 }
 @media (max-width: 480px) {
@@ -307,10 +309,12 @@ body {
 
     .stat-number {
         font-size: 20px;
+        padding: auto;
     }
 
     .stat-label {
         font-size: 10px;
+        padding: auto;
     }
 
     .button {
