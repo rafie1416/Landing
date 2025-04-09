@@ -275,16 +275,9 @@ body {
     }
 
     .team-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(300px, 1fr);
     }
     
-    .stat {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    }
-
     .stat-number {
         font-size: 20px;
         padding: auto;
@@ -313,13 +306,6 @@ body {
 
     .team-intro p {
         font-size: 14px;
-    }
-
-    .stat {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
     }
 
     .stat-number {
