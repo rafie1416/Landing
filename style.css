@@ -295,3 +295,45 @@ body {
             background: #fff;
             color: #1c2687;
         }
+
+        @media (max-width: 768px) {
+            .sidebar {
+                width: 100%;
+                height: auto;
+                position: relative;
+                border-right: none;
+            }
+            
+            .main-content {
+                margin-left: 0;
+            }
+            
+            .hero {
+                padding: 40px;
+            }
+            
+            .stats-section {
+                padding: 20px;
+            }
+            
+            .features-section {
+                flex-direction: column;
+            }
+            
+            .services-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .clients-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media (max-width: 480px) {
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .clients-grid {
+                grid-template-columns: 1fr;
+            }
+        }
