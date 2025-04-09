@@ -277,6 +277,12 @@ body {
     .team-grid {
         grid-template-columns: repeat(2, 1fr);
     }
+    .stat-number {
+        font-size: 20px;
+    }
+    .stat-label {
+        font-size: 10px;
+    }
 }
 @media (max-width: 480px) {
     .team-grid {
@@ -300,7 +306,7 @@ body {
     }
 
     .stat-number {
-        font-size: 28px;
+        font-size: 20px;
     }
 
     .stat-label {
